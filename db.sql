@@ -1,0 +1,7 @@
+CREATE TABLE "cities" (
+	"id"	INTEGER NOT NULL UNIQUE,
+	"lat"	REAL NOT NULL,
+	"lon"	REAL NOT NULL,
+	"name"	TEXT NOT NULL,
+	PRIMARY KEY("id")
+);
